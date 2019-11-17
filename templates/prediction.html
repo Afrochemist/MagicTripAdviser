@@ -1,0 +1,25 @@
+{% extends "base.html"%}
+
+
+{% block content %}
+<section class="hero is-primary is-bold is-large">
+  <div class="hero-body"></div>
+  <p class="title is-2">Hotel Prediction</p>
+  <form method="POST">
+    <p>
+        <label for="input">Input you dream resort!</label>
+        <input id="input" name="input" type="text">
+    </p>
+        <input type="submit" value="Go!">
+    <p>
+        {{ text }} 
+    </p>
+  </form>
+
+
+</section>
+
+{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
