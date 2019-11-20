@@ -9,8 +9,8 @@ This data base includes hotel reviews, We trained a modle from reviews.
 Frontend is Flutter .... Thank you for repo from  https://github.com/putraxor/flutter-login-ui  
 Backend is Flask .... To start; python app_test.py  
 
-We need to add
-  Flask deploy on Render
+We need to add  
+  Flask deploy on Render  
   Paywall by Stripe  
   Firebase authentification  
   It's not perfect prediction  
